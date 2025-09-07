@@ -315,7 +315,7 @@ export function ProviderSettingsCard(): JSX.Element | null {
               </label>
               <select
                 id="prov-type"
-                className="px-2 py-1 rounded-md border border-border bg-background text-sm"
+                className="px-2 py-1 rounded-md border border-border bg-white text-sm text-black dark:bg-gray-800 dark:text-white dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-sky-400"
                 value={draft.type}
                 onChange={e => setDraft({ ...draft, type: e.target.value as BrowserOSProviderType })}
               >
